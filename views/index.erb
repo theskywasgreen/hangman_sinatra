@@ -22,7 +22,7 @@
     <% if game.guess.include?(params["letter"]) %>
       <h2><%= game.print_guess.join(" ") %></h2>
       <p>ALREADY CHOSEN.</p>
-    <% elsif params["letter"] !~ /[A-Z]/ && params['game'] != "new" %>
+    <% elsif params["letter"] !~ /[A-Z]/ || params['game'] != "new" %>
       <h2><%= game.print_guess.join(" ") %></h2>
       <p>PLEASE ENTER A VALID CHARACTER (CAPITAL LETTERS ONLY)</p>
     <% else %>
