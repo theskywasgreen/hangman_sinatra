@@ -16,6 +16,15 @@ get '/' do
   erb :index, :locals => {:game => @session['game'], :word => params['word'], :guess_counter => session[:game].guess_counter }
 end
 
+get '/lose' do
+  @session = session
+  erb :lose, :locals => {:game => @session['game'] }
+end
+
+get '/win' do
+  @session = session
+  erb :win, :locals => {:game => @session['game'] }
+end
 
 
 helpers do

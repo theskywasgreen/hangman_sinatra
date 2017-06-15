@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Hangman</title>
     <link rel="stylesheet" href="./styles.css">
-    <link href="https://fonts.googleapis.com/css?family=PT+Sans|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -13,53 +13,55 @@
       </div>
       <div id="github">
       <a href="https://github.com/theskywasgreen/caeser_cipher_sinatra" target="_blank">
-        <img src="./GitHub.png" alt="Github Link" height="36" width="36"></a>
+        <img src="./images/GitHub.png" alt="Github Link" height="36" width="36"></a>
       </div>
       </header>
 
-    <div class="content">
     <div class="response">
     <% if game.guess.include?(params["letter"]) %>
-      <h2><%= game.print_guess.join(" ") %></h2>
+      <h2><pre><%= game.print_guess.join(" ") %></pre></h2>
       <p>ALREADY CHOSEN.</p>
-    <% elsif params["letter"] !~ /[A-Z]/ %>
-      <h2><%= game.print_guess.join(" ") %></h2>
-      <p>PLEASE ENTER A VALID CHARACTER (CAPITAL LETTERS ONLY)</p>
+      <% elsif params["letter"] !~ /^[A-Za-z]$/ %>
+      <h2><pre><%= game.print_guess.join(" ") %></pre></h2>
+      <p>PLEASE ENTER A VALID CHARACTER (LETTERS ONLY)</p>
     <% else %>
-      <% game.check_guess(params["letter"]) %>
-      <h2><%= game.print_guess.join(" ") %></h2>
+      <% game.check_guess(params["letter"].upcase) %>
+      <h2><pre><%= game.print_guess.join(" ") %></pre></h2>
       <% game.guess << params["letter"] %>
     <% end %>
     </div>
 
+    <div class="content">
     <div class="response">
       <form>
         <input type="text" name="letter">
         <input type="submit" value ="GUESS" name="guess">
-        <input type="submit" value ="NEW MOVIE" name="change movie" id="new_button">
       </form>
     </div>
 
     <div id="stats">
-    <h3>Stats</h3>
-    <p>You have <%= game.guess_counter %> lives left</p>
-    <p> Previous guesses: <%= game.guess.join(", ") %></p>
+    <p>You have <h3><%= game.guess_counter %></h3> lives left.</p>
+    <p>Previous guesses: <%= game.guess.join(", ") %></p>
+    </div>
+
+    <div id="new_movie">
+    <form>
+      <input type="submit" value ="NEW MOVIE" name="change movie" id="new_button">
+    </form>
     </div>
     </div>
+
 
       <% if params['change movie'] == "NEW MOVIE" %>
           <% redirect to ("/?game=new") %>
       <% end %>
 
       <% if game.guess_counter <= 0 %>
-        <p>YOU HUNG :(!</p>
-        <p>The film was - <%= game.guess_word.join %></p>
+        <% redirect to ("/lose") %>
       <% end %>
 
       <% if game.print_guess == game.guess_word %>
-      <p>WOOHOO! YOU WON! :)</p>
-      <p>The film was - <%= game.guess_word.join %></p>
+        <% redirect to ("/win") %>
       <% end %>
-
   </body>
 </html>

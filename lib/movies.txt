@@ -1,13 +1,11 @@
-The Shawshank   Redemption
+The Shawshank Redemption
 The Godfather
 Pulp Fiction
-The Good the Bad and the Ugly
 The Dark Knight
 Schindlers List
 The Lord of the Rings
 Fight Club
 Star Wars
-One Flew Over the Cuckoos Nest
 Inception
 Goodfellas
 Star Wars
@@ -17,7 +15,6 @@ The Matrix
 City of God
 Seen
 The Silence of the Lambs
-Once Upon a Time in the West
 Casablanca
 The Usual Suspects
 Raiders of the Lost Ark
@@ -69,16 +66,12 @@ Cinema Paradiso
 The Lion King
 The Third Man
 Requiem for a Dream
-The Treasure of the Sierra Madre
-Eternal Sunshine of the Spotless Mind
-Once Upon a Time in America
 Full Metal Jacket
 Braveheart
 LA Confidential
 Oldboy
 Chinatown
 Singing in the Rain
-Monty Python and the Holy Grail
 Some Like It Hot
 Bicycle Thieves
 Metropolis
@@ -88,7 +81,6 @@ Princess Mononoke
 All About Eve
 The Sting
 Unforgiven
-Indiana Jones and the Last Crusade
 The Apartment
 Raging Bull
 Grave of the Fireflies
@@ -127,7 +119,6 @@ The Deer Hunter
 Cool Hand Luke
 The Gold Rush
 It Happened One Night
-Lock, Stock and Two Smoking Barrels
 No Country for Old Men
 Sin City
 Strangers on a Train
@@ -136,7 +127,6 @@ The Sixth Sense
 Platoon
 Jaws
 The Thing
-Butch Cassidy and the Sundance Kid
 Good Will Hunting
 Trainspotting
 The Wizard of Oz
@@ -183,7 +173,6 @@ The Killing
 The Graduate
 A Beautiful Mind
 The Princess Bride
-Who's Afraid of Virginia Woolf?
 The Hustler
 La Strada
 Slumdog Millionaire
@@ -195,7 +184,6 @@ The Manchurian Candidate
 The Exorcist
 Rope
 The Wild Bunch
-The Man Who Shot Liberty Valance
 Stalag
 Barry Lyndon
 In the Name of the Father
@@ -209,17 +197,14 @@ The Truman Show
 Monsters, Inc
 Memories of Murder
 A Fistful of Dollars
-Harry Potter and the Deathly Hallows
 Star Trek
 District
 Ip Man
 Ratatouille
-The Diving Bell and the Butterfly
 Jurassic Park
 A Streetcar Named Desire
 La Haine
 Shutter Island
-All Quiet on the Western Front
 Rain Man
 Beauty and the Beast
 Like Stars on Earth
@@ -230,7 +215,6 @@ Papillon
 Manhattan
 The Untouchables
 Nosferatu
-Spring, Summer, Fall, Winter and Spring
 The Perks of Being a Wallflower
 Big Fish
 The Help
