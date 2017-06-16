@@ -26,7 +26,6 @@ get '/win' do
   erb :win, :locals => {:game => @session['game'] }
 end
 
-
 helpers do
   def set_game
     session[:game] = Game.new

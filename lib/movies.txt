@@ -57,7 +57,6 @@ Gladiator
 A Clockwork Orange
 The Great Dictator
 The Prestige
-Amélie
 Lawrence of Arabia
 To Kill a Mockingbird
 Reservoir Dogs
@@ -111,8 +110,11 @@ Rebecca
 Scarface
 Gran Torino
 Wild Strawberries
+The Wolf of Wall Street
 Fargo
+Room
 Ran
+Logan
 The Big Lebowski
 Touch of Evil
 The Deer Hunter
@@ -120,20 +122,26 @@ Cool Hand Luke
 The Gold Rush
 It Happened One Night
 No Country for Old Men
+Rang De Basanti
 Sin City
 Strangers on a Train
 Casino
 The Sixth Sense
+Your Name
 Platoon
 Jaws
 The Thing
+Zootopia
 Good Will Hunting
+Gangs of Wasseypur
 Trainspotting
 The Wizard of Oz
 High Noon
 Kill Bill: Vol
 Hotel Rwanda
+Wild Tales
 The Avengers
+Catch Me If You Can
 Warrior
 The Secret in Their Eyes
 Gone with the Wind
@@ -141,19 +149,24 @@ Annie Hall
 The Grapes of Wrath
 My Neighbor Totoro
 V for Vendetta
+Prisoners
 Notorious
 Finding Nemo
 Into the Wild
 Dial M for Murder
+Spotlight
 Life of Brian
 How to Train Your Dragon
 The Kings Speech
 There Will Be Blood
 The Night of the Hunter
 The Terminator
+The Grand Budapest Hotel
 Network
 The Big Sleep
+Butch Cassidy and the Sundance Kid
 Ben Hur
+Hacksaw Ridge
 Million Dollar Baby
 Stand by Me
 Groundhog Day

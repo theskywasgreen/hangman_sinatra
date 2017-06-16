@@ -12,7 +12,7 @@
         <h1>HANGMAN</h1>
       </div>
       <div id="github">
-      <a href="https://github.com/theskywasgreen/caeser_cipher_sinatra" target="_blank">
+      <a href="https://github.com/theskywasgreen/hangman_sinatra" target="_blank">
         <img src="./images/GitHub.png" alt="Github Link" height="36" width="36"></a>
       </div>
       </header>
@@ -34,14 +34,14 @@
     <div class="content">
     <div class="response">
       <form>
-        <input type="text" name="letter">
+        <input type="text" name="letter" autofocus="autofocus">
         <input type="submit" value ="GUESS" name="guess">
       </form>
     </div>
 
     <div id="stats">
     <p>You have <h3><%= game.guess_counter %></h3> lives left.</p>
-    <p>Previous guesses: <%= game.guess.join(", ") %></p>
+    <p>Previous guesses: <%= game.guess.join(", ").upcase %></p>
     </div>
 
     <div id="new_movie">
